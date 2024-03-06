@@ -1,0 +1,12 @@
+mi_red = "red-terraform"
+mi_ip = "project-terraform-ip"
+rand_lenght = 16
+rand_special = false
+rand_upper = false
+locate = "EU"
+inst_name = "project-terraform-instance"
+inst_type = "e2-medium"
+tags = ["web","php"]
+inst_image = "projects/ubuntu-os-cloud/global/images/ubuntu-2204-jammy-v20230829"
+#inst_nw = "google_compute_network.red-practica-terraform.name"
+inst_nat = "google_compute_address.terraform-ip.address"
